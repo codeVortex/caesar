@@ -53,7 +53,7 @@ public class CaesarCipher {
 
     public static void main (String args[])
     {
-        String unencrypted = ".!The quick brown fox jumped over the dog.";
+        String unencrypted = "The quick brown fox jumped over the lazy dog!";
         String encrypted = CaesarCipher.encryptString(unencrypted, 1, true);
         System.out.printf("Shift is %d chars%n",CaesarCipher.DEFAULT_SHIFT);
         System.out.printf("%-13s\"%s\"%n%-13s\"%s\"", "Unencrypted:", unencrypted, "Encrypted:", encrypted);
